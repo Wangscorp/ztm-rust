@@ -7,5 +7,12 @@
 // * Use a variable set to either true or false
 // * Use a match expression to determine which message to display
 
-fn main() {}
+fn main() {
+    let is_beautiful = false;
+    match is_beautiful{
+        true=>println!("She is beautiful"),
+        false=>println!("She is good looking"),
+        
+    }
+}
 

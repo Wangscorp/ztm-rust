@@ -9,5 +9,20 @@
 // * Print the variable within the loop statement
 // * Use break to exit the loop
 
-fn main() {}
+fn main() {
+// * Use a mutable integer variable
+let mut n =1;
+loop {
+    println!("Number {:?}", n);
+    n +=1;
+    if n==4{
+        break;
+    }
+    
+}
+// * Use a loop statement
+// * Print the variable within the loop statement
+// * Use break to exit the loop
+
+}
 

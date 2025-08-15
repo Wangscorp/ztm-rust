@@ -9,5 +9,15 @@
 // * Use an if..else if..else block to determine which message to display
 // * Use the println macro to display messages to the terminal
 
-fn main() {}
+fn main() {
+    let age=20;
+    if age>5{
+        println!("Age >5");
+    }else if age<5{
+        println!("Age <5");
+
+    }else{
+        println!("Age =5");
+    }
+}
 

@@ -10,5 +10,16 @@
 // * Print the variable within the while loop
 // * Do not use break to exit the loop
 
-fn main() {}
+fn main() {
+    // Notes:
+// * Use a mutable integer variable
+    let mut n=5;
+// * Use a while statement
+while n>0{
+// * Print the variable within the while loop
+    println!("{:?}",n);
+    n-=1
+// * Do not use break to exit the loop
+}
+}
 

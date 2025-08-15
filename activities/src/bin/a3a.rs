@@ -10,5 +10,19 @@
 // * Use an if..else block to determine which message to display
 // * Use the println macro to display messages to the terminal
 
-fn main() {}
+fn main() {
+    let mut is_male=true;
+    if is_male==true{
+        println!("hello");
+    }else{
+        println!("Good Bye");
+    }
+    is_male=false;
+    if is_male==true{
+        println!("Hello");
+    } else {
+        println!("Good Bye ");
+    }
+        
+}
 

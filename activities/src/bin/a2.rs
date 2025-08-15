@@ -15,6 +15,6 @@ fn print(x:i32){
 }
 fn main() {
     print(sum(26,12));
-    print(sum(39,49));
+    print(sum(39,49)); 
 }
 
